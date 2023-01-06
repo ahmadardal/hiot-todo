@@ -1,0 +1,41 @@
+.row-container {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-container:nth-of-type(odd) {
+    background-color: #ecf3f9;
+}
+
+.row-text {
+    color: black;
+    font-size: 14pt;
+
+}
+
+.completed {
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    color: rgb(100, 100, 100);
+}
+
+.hehe {
+    display: flex;
+}
+
+#checkbox-row {
+    align-self: center;
+    background-color: red;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#remove-logo {
+    height: 24px;
+    width: 24px;
+    margin-right: 1rem;
+    cursor: pointer;
+}

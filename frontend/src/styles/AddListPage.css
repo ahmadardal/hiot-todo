@@ -1,0 +1,16 @@
+.list-bg {
+    min-height: 25vh;
+}
+
+#result-message {
+    color: rgb(60, 60, 60);
+    font-size: 14pt;
+    font-weight: 300;
+}
+
+#back {
+    color: rgb(60, 60, 60);
+    font-size: 14pt;
+    font-weight: 800;
+    cursor: pointer;
+}
