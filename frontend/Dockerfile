@@ -4,9 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm ci 
+RUN npm install
 RUN npm run build
-RUN npm install --global serve
 
 ENV NODE_ENV production
 
